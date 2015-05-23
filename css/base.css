@@ -1,0 +1,280 @@
+
+
+/* 
+
+--------DO NOT MODIFY THIS FILE-------- 
+
+This file holds all of the structural css for the web style guide. ALL styleing chagnes should be done in the custom.css
+
+*/
+
+
+*{-webkit-print-color-adjust: exact;
+}
+body{
+font-size: 13px;
+font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+line-height: 1.5em;
+}
+
+ body.example_page{
+	
+	margin:0px;
+}
+h2.style_guide,h3.style_guide,h4.style_guide,h5.style_guide{
+	
+	color: #ffffff;
+	background-color: #bababa;
+	padding: 5px;
+}
+.simple_menu h2 a{
+	text-decoration: none;
+	
+}
+
+a{
+color:#2978AC;
+}
+
+a.hover, a:hover{
+color:#efb432;
+}
+
+.row{
+display:table-row;
+}
+
+.color_1, .color_2, .color_3, .color_4, .color_5, .color_6{
+display: table-color;
+width: 200px;
+}
+
+.grid_wrapper{
+display: inline-table;
+}
+
+.color {
+  color:#fff;
+  text-shadow: 1px 1px 1px #000, 1px 1px 1px #fff; 
+  padding-left: 5px;
+}
+
+.body_outter{
+width: 100%;
+    }
+.body_inner{
+width: 940px;
+ margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+
+}
+.form-required{
+	color:red;
+	
+}
+
+/* Buttons
+/-------------------------------------------------------------- */
+form input[type="submit"]
+{
+        height: 35px;
+}
+
+
+
+/* page demo */
+#container {
+width: fixed;
+width: 940px;
+margin:0 auto 0 auto;}
+
+#header {
+text-align: left;
+background-color: #FFFFFF;
+display: block;
+
+}
+
+#left_sidebar {
+float: left; //TODO - not for tables
+width: 220px;
+font-size: 12px;
+color: #000000;
+text-align: left;
+background-color: #FFFFFF;
+}
+
+#right_sidebar {
+float: right; //TODO - not for tables
+width: 220px;
+font-size: 12px;
+color: #000000;
+text-align: left;
+background-color: #FFFFFF;
+}
+
+#main_content {
+font-size: 12px;
+color: #000000;
+text-align: left;
+margin-right: 220px;
+margin-left: 220px;
+  
+background-color: #FFFFFF;
+}
+
+#footer {
+text-align: left;
+background-color: #FFFFFF;
+}
+
+/*
+.page-wrapper{
+width:960px;
+}
+*/
+/* Menu */
+.menu-bar .menu{
+   color: white;
+    
+    font-size: 13px;
+    min-height: 25px;
+    padding-top: 22px;
+    
+  
+      position: absolute;
+     left: 50%;
+     margin-left: 69px;
+}
+.menu-bar-wrapper{
+width: 960px;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03102a', endColorstr='#08295d',GradientType=0 );
+}
+
+.menu-bar .menu a{
+color: #fff;
+text-decoration: none;
+
+}
+
+
+
+    
+
+.menu-bar {
+-webkit-print-color-adjust: exact;
+background-color: #03102a;
+  background-image: url("../images/topbar_bg.png");
+  background-repeat: no-repeat;
+      background-position: center center;
+  margin: 0;
+   padding: 0;
+   height: 60px;
+  text-align: center;
+
+}
+
+/*
+.submenu-indicator {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("../images/arrow.png");
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    height: 6px;
+    top: 0.6em;
+    width: 9px;
+      overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    right: 0.75em;
+    text-indent: -999em;
+    display: block;
+}
+*/
+
+.submenu{
+display: none;
+}
+.header{
+  background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+   background: #03102a; /* Old browsers */
+background: -moz-linear-gradient(top,  #03102a 0%, #08295d 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#03102a), color-stop(100%,#08295d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #03102a 0%,#08295d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #03102a 0%,#08295d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #03102a 0%,#08295d 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #03102a 0%,#08295d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03102a', endColorstr='#08295d',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+
+.menu-bar li {
+   list-style: none;
+   float: left; 
+    padding-left: 5px;
+    padding-right: 5px;
+   }
+.menu-bar li a {
+   display: block;
+   padding: 3px 8px;
+ 
+   color: #fff;
+   text-decoration: none; }
+   
+/*    submenu border */
+.menu-bar li ul {
+   display: none; 
+   width: 10em; /* Width to help Opera out */
+   background-color: #69f;
+   border-color: gray;
+   border-style: solid;
+   border-width: 1px;
+   }
+   
+.menu-bar li li{
+  padding-left: 0px;
+    padding-right: 0px;
+}   
+.menu-bar li:hover ul, .menu-bar li.hover ul{
+   display: block;
+   position: absolute;
+   margin: 0;
+   padding: 0; }
+.menu-bar li:hover li, .menu-bar li.hover li{
+   float: none; }
+ 
+/*  submenu color   */
+.menu-bar li:hover li a, .menu-bar li.hover li a{
+  
+   background-color: #DADADA;
+     color: #686868; 
+    text-align: left;}
+    
+/*  submenu   hover color */
+.menu-bar li li a:hover {
+  background-color: #BFBFBF; }
+.menu-bar   .active a{
+     background-color: #F79F32 ;
+   }
+   
+   
+/* form    */
+   label {
+display: block;
+font-weight: bold;
+}
