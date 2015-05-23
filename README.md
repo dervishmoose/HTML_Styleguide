@@ -25,3 +25,6 @@ Load HTML_Style_Guide.html in a browser to see a live style guide.
 - HTML_Style_Guide.html
 
 All changes should be made to the custom.css file.
+
+## Feel Free
+Feel free to use this style guide or the code behind it in anyway you see fit. I would appreciate a ping, just to tell me how you are using it.
